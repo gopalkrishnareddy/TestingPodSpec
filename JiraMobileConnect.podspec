@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.prefix_header_file = "JIRAConnect/JIRAConnect-Prefix.pch"
   s.vendored_frameworks = '**/CrashReporter.framework'
-  s.compiler_flags = '-fno-objc-arc'
 
   s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics', 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices', 'CoreGraphics', 'AVFoundation', 'CoreLocation', 'libsqlite3'
 
