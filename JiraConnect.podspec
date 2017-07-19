@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = 'JIRAConnect/JMCClasses/Base/*.{h,m}', 'JIRAConnect/JMCClasses/Core/**/*.{h,m}'
   s.requires_arc = true
-  s.prefix_header_file = "**/JIRAConnect-Prefix.pch"
+  s.prefix_header_file = "JIRAConnect/JIRAConnect-Prefix.pch"
   s.vendored_frameworks = '**/CrashReporter.framework'
 
   s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics', 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices', 'CoreGraphics', 'AVFoundation', 'CoreLocation', 'libsqlite3'
