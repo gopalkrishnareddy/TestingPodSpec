@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "JiraMobileConnect"
+  s.name         = "JiraConnect"
   s.version      = "1.0.0"
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.summary      = "Jira Mobile Connect library"
